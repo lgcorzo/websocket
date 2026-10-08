@@ -15,7 +15,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/minio/websocket"
+	"github.com/lgcorzo/websocket"
 )
 
 var addr = flag.String("addr", "localhost:8080", "http service address")
