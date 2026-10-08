@@ -1,16 +1,14 @@
 linters-settings:
-  golint:
-    min-confidence: 0
-
   misspell:
     locale: US
 
   gofumpt:
-    lang-version: "1.18"
-
-    # Choose whether or not to use the extra rules that are disabled
-    # by default
     extra-rules: false
+
+  revive:
+    rules:
+      - name: unused-parameter
+        disabled: true
 
 linters:
   disable-all: true
@@ -27,6 +25,3 @@ linters:
 
 issues:
   exclude-use-default: false
-
-service:
-  golangci-lint-version: 1.45.2 # use the fixed version to not introduce new linters unexpectedly
