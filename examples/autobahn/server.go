@@ -14,7 +14,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/minio/websocket"
+	"github.com/lgcorzo/websocket"
 )
 
 var upgrader = websocket.Upgrader{
