@@ -14,7 +14,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/minio/websocket"
+	"github.com/lgcorzo/websocket"
 )
 
 var (
