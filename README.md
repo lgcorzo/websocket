@@ -1,3 +1,5 @@
+Maintained fork of [gorilla/websocket](https://github.com/gorilla/websocket). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: BSD-2-Clause.
+
 # Gorilla WebSocket (`@lgcorzo/websocket`)
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/lgcorzo/websocket.svg)](https://pkg.go.dev/github.com/lgcorzo/websocket)
@@ -100,3 +102,10 @@ go get github.com/lgcorzo/websocket
 ## 🧪 Protocol Compliance
 
 The Gorilla WebSocket package passes the server tests in the [Autobahn Test Suite](https://github.com/crossbario/autobahn-testsuite) using the test harness in the [examples/autobahn](https://github.com/lgcorzo/websocket/tree/master/examples/autobahn) subdirectory.
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/websocket/commits) and [Pull Requests](https://github.com/lgcorzo/websocket/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
